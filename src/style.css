@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Inter', sans-serif;
+}
+#root{
+    /* height: 100vh; */
+    display: flex;
+    justify-content: center;
+}
+h2{
+    color: #2B2B2B;
+}
+.card{
+    height: 300px;
+    width: 300px;
+    padding: 1rem 2.5rem;
+    transform: translate(0,50%);
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 14px;
+    box-shadow: -20px 20px 60px rgba(237, 37, 117, 0.475), /* Left bottom shadow */
+            20px -20px 60px rgba(47, 59, 230, 0.475); /* Top right shadow */
+}
+.inputs{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.inputs input{
+    width: 100%;
+    height: 30px;
+    border: 2px solid #000000;
+    outline: none;
+    color: #2B2B2B;
+    font-weight: 600;
+    padding: 0.5rem;
+}
+.inputs input::placeholder{
+    color: #2B2B2B;
+    font-weight: 600;
+}
+.opeartion-btns{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.btn{
+    height: 40px;
+    width: 40px;
+    background: #2B2B2B;
+    border: none;
+    outline: none;
+    color: #FFFFFF;
+    font-weight:900 !important;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.messages{
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    flex-direction: column;
+}
+.color{
+    font-weight:600;
+    margin-bottom: 10px;
+}
+.color.red{
+    color: red;
+}
+.color.blue{
+    color: rgb(43, 56, 237);
+}
+.message{
+    color: #2B2B2B;
+    font-weight:600;
+    display: none;
+}
