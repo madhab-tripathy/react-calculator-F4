@@ -1,9 +1,5 @@
 import Card from "./Components/Card";
 
-const App = ()=>{
-  return(
-    <Card />
-  );
-}
+const App = () => <Card />;
 
 export default App;

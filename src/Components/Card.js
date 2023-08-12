@@ -63,6 +63,7 @@ const Card = ()=>{
             document.getElementById('error-message').style.display = 'none';
         }
     }
+
     function multiplication(){
         if(validateUserInput(x,y)){
             let sum = Number(x)*Number(y);
@@ -75,7 +76,6 @@ const Card = ()=>{
     }
 
     function division(){
-        
         if(validateUserInput(x,y)){
             let sum = Number(x)/Number(y);
             setAnswer(sum);
